@@ -1,4 +1,4 @@
-FROM wordpress:4.7.3
+FROM wordpress:php8.3-apache
 
 ADD adapter.sh /opt/adapter.sh
 RUN chmod +x /opt/adapter.sh
